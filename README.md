@@ -30,7 +30,7 @@ TransactAI is a secure payment platform featuring real-time fraud detection usin
   DB_PASSWORD=your_mysql_password
   DB_DB=your_database_name
 ```
-4. - Set up a MySQL database and create tables for `transactions` and `fraud_rules` as per your schema.
+4. **Set up a MySQL database and create tables for `transactions` and `fraud_rules` as per schema.**
 5. **Make script executable:**
 ```bash
    chmod +x TransactAI.sh
