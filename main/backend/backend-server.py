@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 import requests
 
-ML_SERVER_URL = "http://192.168.80.106:8100/mlpredict"
+ML_SERVER_URL = "http://localhost:8100/mlpredict"
 REPORT_API_URL = "http://localhost:8200/report"
 
 app = fastapi.FastAPI()
@@ -41,7 +41,7 @@ def fetch_rules():
 def send_fraud_report(transaction_id, fraud_details):
     report_data = {
         "transaction_id": transaction_id,
-        "reporting_entity_id": "system",  # Assuming system-generated reports
+        "reporting_entity_id": "system",
         "fraud_details": fraud_details
     }
     try:

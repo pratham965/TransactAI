@@ -12,8 +12,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="Fraud Detection System",
-    page_icon="👀",
+    page_title="TransactAI",
     layout="wide"
 )
 
@@ -179,7 +178,8 @@ elif st.session_state.active_view == "dashboard" and st.session_state.logged_in:
     st.title("📊 Fraud Analysis Dashboard")
 
     st.write("Loading dashboard...")
-    run_streamlit_script("app.py")
+    run_streamlit_script("dashboard.py")
+    st.write("Dashboard Loaded")
     # Add simplified dashboard content di
 
 elif st.session_state.active_view == "rules" and st.session_state.logged_in:

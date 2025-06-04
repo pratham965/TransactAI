@@ -831,7 +831,3 @@ else:
     Upload a CSV or Excel file with these columns to analyze your fraud detection performance.
     """)
 
-
-def show_app():
-    # Link back to main2.py
-    st.markdown('[Back to Main](?page=main)')
