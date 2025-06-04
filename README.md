@@ -15,7 +15,7 @@ TransactAI is a secure payment platform featuring real-time fraud detection usin
 
 1. **Clone the repository:**
 ```bash
-   https://github.com/pratham965/TransactAI.git
+   git clone https://github.com/pratham965/TransactAI.git
    cd TransactAI
 ```
 2. **Install dependencies:**
