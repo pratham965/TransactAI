@@ -1,7 +1,0 @@
-Transaction_ID,Payee_ID,Payer_ID,Amount,Transaction_Channel,Transaction_Payment_Mode,Payment_Gateway_Bank,is_fraud_rule,is_fraud_predicted,Timestamp,payer_browser_anonymous,payee_ip_anonymous,payer_mobile_anonymous
-,,,0.0,Web,Card,,False,True,2025-06-03 00:00:00,,,
-,,,0.0,Web,Card,,False,True,2025-06-03 00:00:00,,,
-ATON_19,PAYEE001,user@example.com,20000.0,Web,Card,Bank A,True,False,2025-03-22 00:00:00,Chrome,,1234567890
-ATON_20,PAYEE002,pj@gmail.com,1500.0,Web,Card,Bank A,False,False,2025-03-22 00:00:00,Chrome,,1234567890
-ANON_10,,,100000.0,Web,Card,,True,True,2025-03-22 00:00:00,,,
-abc,,,100000.0,Web,Card,,False,True,2025-03-22 00:00:00,,,
